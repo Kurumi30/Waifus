@@ -1,4 +1,4 @@
-let type = "sfw"
+let type = "sfw" //nsfw
 let category = "waifu"
 const categories = [
     "waifu",
@@ -83,7 +83,7 @@ function generateWaifu() {
         return response.json()
     }).then(data => {
         imageSection.innerHTML = `
-        <img src="${data.url}" class="img-thumbnail d-block my-3" id="waifuImage" alt="waifu image">
+        <img src="${data.url}" class="img-thumbnail d-block my-3" id="waifuImage" alt="waifu image" style="max-height:430px">
         `
         downloadLink.href = data.url
         generateWaifuBtn.innerHTML = '<b>Gerar mais...</b>'
