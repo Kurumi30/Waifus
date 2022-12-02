@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+
+body {
+  background: linear-gradient(135deg, #8bc6ec 0%, #9599e2 128%);
+}
+
+.container,
+.row {
+  height: inherit;
+}
+
+#waifuImg {
+  max-height: 450px;
+  box-shadow: 1.5px 5.6px 3.2px rgba(0, 0, 0, 0.022),
+    3px 10.8px 7.1px rgba(0, 0, 0, 0.043),
+    4.4px 15.8px 12.1px rgba(0, 0, 0, 0.063),
+    5.8px 20.9px 18.9px rgba(0, 0, 0, 0.081),
+    7.5px 27.1px 29.8px rgba(0, 0, 0, 0.096),
+    10.4px 37.5px 52.7px rgba(0, 0, 0, 0.107),
+    27px 97px 154px rgba(0, 0, 0, 0.11);
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+}
+
+#text {
+    font-size: 1.7em;
+}
+
+.custom-btn {
+  border-radius: 30px;
+  padding: 10px 23px; /*! Tamanho do botão...*/
+  color: rgb(231, 233, 95);
+  border: 1.9px solid #6b09c7;
+  background: linear-gradient(135deg, #6bc914 0%, #21be43 128%);
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 11px;
+  transition: all 0.2s;
+}
+
+.custom-btn,
+#downloadLink {
+    font-family: "DynoPuff", cursive;
+}
+
+.custom-btn:hover {
+  background: linear-gradient(135deg, #21be43 0%, #6bc914 128%);
+  color: rgb(231, 67, 67);
+  border: 1px solid #6b09c7;
+  border-radius: 15px;
+}
+
+.scrollable {
+    max-width: 700px;
+    max-height: 700px;
+    overflow: auto;
+}
+
+.mainSection {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.pageCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-select {
+    width: auto;
+    background: none;
+    color: black;
+    padding: 8px 30px;
+    margin: 5px;
+    font-family: system-ui;
+    font-size: 1.6rem;
+    border: 2px solid #6b09c7;
+    border-radius: 27px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #6bc914 0%, #21be43 128%);
+    text-align: center;
+    transition: all 0.1s;
+}
+
+.form-select:hover {
+    background: linear-gradient(135deg, #21be43 0%, #6bc914 128%);
+    color: rgb(216, 53, 53);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#footer {
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+    font-family: 'DynoPuff', cursive;
+    font-style: italic;
+    color: #101575;
+}
+
+#selectInput {
+    width: 100%;
+}
+
+#card {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#span {
+    height: 430px;
+}
